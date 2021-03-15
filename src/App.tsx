@@ -1,7 +1,7 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
 
-import Nav from './Nav';
+import Header from './Header';
 import Body from './Body';
 import Footer from './Footer';
 
@@ -11,7 +11,7 @@ export const App = hot(_App)
 export function _App(): JSXElement | null {
   return (
     <div className='App'>
-      <Nav />
+      <Header />
       <Body />
       <Footer />
     </div>

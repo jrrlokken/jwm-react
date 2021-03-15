@@ -1,10 +1,19 @@
 import * as React from 'react';
+import styled from 'styled-components';
 
-const Footer = props => {
+const StyledFooter = styled.div`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+`;
+
+const Footer = () => {
   return (
-    <div className="footer">
+    <StyledFooter>
       <p>Footer</p>
-    </div>
+    </StyledFooter>
   );
 }
 
